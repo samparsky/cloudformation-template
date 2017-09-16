@@ -62,6 +62,7 @@ outputs = {
 
 for r in resources.values():
     t.add_resource(r)
+    
 for output in outputs.values():
     t.add_output(output)
 
